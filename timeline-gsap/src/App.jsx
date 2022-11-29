@@ -13,9 +13,9 @@ function App() {
   const lineRef = useRef()
 
   const data = [
-    { id: 1, year: 2012, name: 'event one', ref: e1Ref },
-    { id: 2, year: 2018, name: 'event two', ref: e2Ref },
-    { id: 3, year: 2022, name: 'event three', ref: e3Ref },
+    { id: 1, year: 2012, name: '12 old event', ref: e1Ref },
+    { id: 2, year: 2018, name: 'collection event', ref: e2Ref },
+    { id: 3, year: 2022, name: 'army event', ref: e3Ref },
   ]
 
   useEffect(() => {
