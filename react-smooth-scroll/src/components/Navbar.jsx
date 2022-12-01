@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+// import Link from react-scroll and specify properties including among others
+// the scroll destination (to) and scroll duration
+
 const Navbar = () => {
     return (
         <nav className="fixed top-0 bg-slate-900 text-white flex justify-center items-center h-20 w-full">

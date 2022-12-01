@@ -1,5 +1,9 @@
 import React from 'react';
 
+/*
+    It's very important to giv each section a name because based on it
+    the scroll will be performed
+*/
 const SectionOne = () => {
     return (
         <section
