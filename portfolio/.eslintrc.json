@@ -15,6 +15,12 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
     "react/react-in-jsx-scope": "off",
     "no-unused-vars": "error",
     "no-undef": "off"
